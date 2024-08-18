@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Medical Information</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="newUser.css">
+   
+</head>
+
+<body> 
+    <div class="container"> 
+    <form name="Patient Information" action="DashboardMedicalInfo.php" method="post">
+        <h1 class="form__title">Medical Information</h1>
+        <div class="form__message form__message--error"></div>
+        <div class="form__input-group">
+
+            <input type="text" id="Height" name= "Height" class="form__input" autofocus placeholder="Height: inches">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+
+            <input type="text" id="Weight" name= "Weight" class="form__input" autofocus placeholder="Weight: lbs">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+
+            <div class="form__input-group">
+
+                <input type="text" id="Allergies" name= "Alergies" class="form__input" autofocus placeholder="Allergies">
+                <div class="form__input-error-message"></div>
+            </div>
+
+            <p> Vaccination Status</p>
+            <SELECT>
+
+                <OPTION Value="Up to Date ">Up to Date</OPTION>
+                <OPTION Value="2 Vaccinations">2 Vaccinations</OPTION>
+                <OPTION Value="1 Vaccination">1 Vaccination</OPTION>
+                <OPTION Value="No Vaccinations">No Vaccinations</OPTION>
+                
+                
+                </SELECT>
+        </div>
+
+       
+        <div class="form__input-group">
+
+        <div class="form__input-group">
+
+            <input type="text" id="Reason" name= "Reason" class="form__input" autofocus placeholder="Reason for Visit">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+
+            <input type="text" id="Complaints" name= "Complaints" class="form__input" autofocus placeholder="Complaints from previous visits">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+
+            <input type="text" id="Symptoms" name= "Symptoms" class="form__input" autofocus placeholder="Symptoms">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+
+            <input type="text" id="Injury" name= "injury" class="form__input" autofocus placeholder="Major injuries in the past year"> 
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+            <p> Currently Medicated?</p>
+            <LABEL FOR="C1">Yes</LABEL>
+            <INPUT TYPE="Checkbox" Name="Medicated" ID="C1" Value="Yes">
+
+            <LABEL FOR="C1">No</LABEL>
+            <INPUT TYPE="Checkbox" Name="NotMedicated" ID="C1" Value="Yes">
+        </div>
+
+        <div class="form__input-group">
+            <p>If medicated, please list medications:</p>
+            <input type="text" id="medications" name= "medications" class="form__input" autofocus placeholder="medications">
+            <div class="form__input-error-message"></div>
+        </div>
+        
+        <br>
+        <button>Save and Continue</button>
+
+    </form>   
+    </div>
+    <script src="newUser.js"></script>
+<body>
