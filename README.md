@@ -1,1 +1,2 @@
-Libby is an Android app that helps users manage their book collections and provides personalized book recommendations. Built with Android Studio, Java, and Firebase for database and authentication, it offers an interface to add, organize, and track reading progress. Future plans include integrating book APIs and enhancing the recommendation algorithm.
+Hippo Talk is a website designed to collect and manage patient data, with the goal of reducing hospital wait times and ensuring secure, encrypted data storage. It utilizes Spring Boot, PHP, ThymeLeaf, and MySQL and enables healthcare providers to efficiently access and manage patient information.
+
